@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CE68A6F72BE99DC70098CB0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6F62BE99DC70098CB0E /* main.m */; };
+		CE68A6FF2BE99ED70098CB0E /* w01 task 01.c in Sources */ = {isa = PBXBuildFile; fileRef = CE68A6FE2BE99ED70098CB0E /* w01 task 01.c */; };
+		CE68A7042BE9B5960098CB0E /* w02.c in Sources */ = {isa = PBXBuildFile; fileRef = CE68A7032BE9B5960098CB0E /* w02.c */; };
+		CE68A7072BEC13790098CB0E /* w03.c in Sources */ = {isa = PBXBuildFile; fileRef = CE68A7062BEC13790098CB0E /* w03.c */; };
+		CE68A70A2BEC6D210098CB0E /* w03_2.c in Sources */ = {isa = PBXBuildFile; fileRef = CE68A7092BEC6D210098CB0E /* w03_2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		CE68A6F32BE99DC70098CB0E /* hopefullythelastcprojectnameicomeupwith */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hopefullythelastcprojectnameicomeupwith; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE68A6F62BE99DC70098CB0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE68A6FE2BE99ED70098CB0E /* w01 task 01.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "w01 task 01.c"; sourceTree = "<group>"; };
+		CE68A7012BE9A7100098CB0E /* w01 task 01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "w01 task 01.h"; sourceTree = "<group>"; };
+		CE68A7022BE9B5960098CB0E /* w02.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w02.h; sourceTree = "<group>"; };
+		CE68A7032BE9B5960098CB0E /* w02.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w02.c; sourceTree = "<group>"; };
+		CE68A7052BEC13790098CB0E /* w03.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w03.h; sourceTree = "<group>"; };
+		CE68A7062BEC13790098CB0E /* w03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w03.c; sourceTree = "<group>"; };
+		CE68A7082BEC6D210098CB0E /* w03_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w03_2.h; sourceTree = "<group>"; };
+		CE68A7092BEC6D210098CB0E /* w03_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w03_2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,10 @@
 		CE68A6EA2BE99DC70098CB0E = {
 			isa = PBXGroup;
 			children = (
+				CE68A7082BEC6D210098CB0E /* w03_2.h */,
+				CE68A7092BEC6D210098CB0E /* w03_2.c */,
+				CE68A7052BEC13790098CB0E /* w03.h */,
+				CE68A7062BEC13790098CB0E /* w03.c */,
 				CE68A6F52BE99DC70098CB0E /* hopefullythelastcprojectnameicomeupwith */,
 				CE68A6F42BE99DC70098CB0E /* Products */,
 			);
@@ -57,6 +73,10 @@
 		CE68A6F52BE99DC70098CB0E /* hopefullythelastcprojectnameicomeupwith */ = {
 			isa = PBXGroup;
 			children = (
+				CE68A7032BE9B5960098CB0E /* w02.c */,
+				CE68A7022BE9B5960098CB0E /* w02.h */,
+				CE68A7012BE9A7100098CB0E /* w01 task 01.h */,
+				CE68A6FE2BE99ED70098CB0E /* w01 task 01.c */,
 				CE68A6F62BE99DC70098CB0E /* main.m */,
 			);
 			path = hopefullythelastcprojectnameicomeupwith;
@@ -119,6 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE68A7072BEC13790098CB0E /* w03.c in Sources */,
+				CE68A70A2BEC6D210098CB0E /* w03_2.c in Sources */,
+				CE68A7042BE9B5960098CB0E /* w02.c in Sources */,
+				CE68A6FF2BE99ED70098CB0E /* w01 task 01.c in Sources */,
 				CE68A6F72BE99DC70098CB0E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
