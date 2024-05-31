@@ -12,6 +12,7 @@
 		CE68A7042BE9B5960098CB0E /* w02.c in Sources */ = {isa = PBXBuildFile; fileRef = CE68A7032BE9B5960098CB0E /* w02.c */; };
 		CE68A7072BEC13790098CB0E /* w03.c in Sources */ = {isa = PBXBuildFile; fileRef = CE68A7062BEC13790098CB0E /* w03.c */; };
 		CE68A70A2BEC6D210098CB0E /* w03_2.c in Sources */ = {isa = PBXBuildFile; fileRef = CE68A7092BEC6D210098CB0E /* w03_2.c */; };
+		CE68A70C2C069FCB0098CB0E /* project.c in Sources */ = {isa = PBXBuildFile; fileRef = CE68A70B2C069FCB0098CB0E /* project.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		CE68A7062BEC13790098CB0E /* w03.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w03.c; sourceTree = "<group>"; };
 		CE68A7082BEC6D210098CB0E /* w03_2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = w03_2.h; sourceTree = "<group>"; };
 		CE68A7092BEC6D210098CB0E /* w03_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = w03_2.c; sourceTree = "<group>"; };
+		CE68A70B2C069FCB0098CB0E /* project.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = project.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		CE68A6EA2BE99DC70098CB0E = {
 			isa = PBXGroup;
 			children = (
+				CE68A70B2C069FCB0098CB0E /* project.c */,
 				CE68A7082BEC6D210098CB0E /* w03_2.h */,
 				CE68A7092BEC6D210098CB0E /* w03_2.c */,
 				CE68A7052BEC13790098CB0E /* w03.h */,
@@ -144,6 +147,7 @@
 				CE68A7042BE9B5960098CB0E /* w02.c in Sources */,
 				CE68A6FF2BE99ED70098CB0E /* w01 task 01.c in Sources */,
 				CE68A6F72BE99DC70098CB0E /* main.m in Sources */,
+				CE68A70C2C069FCB0098CB0E /* project.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

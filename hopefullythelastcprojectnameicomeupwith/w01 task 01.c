@@ -8,7 +8,6 @@
 //
 //// Imports user input/output commands.
 //#include <stdio.h>
-//#include "w01 task 01.h"
 //
 //
 //// I copied int main from the last assignment.
